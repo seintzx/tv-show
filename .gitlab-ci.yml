@@ -6,7 +6,8 @@ before_script:
   - npm install express
   - npm install mongoose
 pages:
-  script: npm init
+  script: 
+    - npm init
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
