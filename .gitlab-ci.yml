@@ -2,12 +2,12 @@ image: node:latest
 
 pages:
   script: 
-  - yarn install
-  - yarn build
-  - mv public _public
-  - mv build public
+    - yarn install
+    - yarn build
+    - mv public _public
+    - mv build public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
